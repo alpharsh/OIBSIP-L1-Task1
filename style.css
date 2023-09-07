@@ -122,7 +122,7 @@ nav ul li a:hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: drop-shadow(13px 1px 6px  #524f48 );
+    filter: drop-shadow(13px 1px 6px #524f48);
 }
 
 .right {
@@ -241,13 +241,19 @@ nav ul li a:hover:after {
         flex-direction: column;
     }
 
+    .main-container button {
+        margin-top: 1rem;
+    }
+
     .main-container h1 {
         font-size: 45px;
     }
 
     .right {
-        right: 20%;
         bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 45px;
     }
 
     .social-links {
