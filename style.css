@@ -202,7 +202,7 @@ nav ul li a:hover:after {
 @media only screen and (max-width: 480px) {
     .container {
         background: linear-gradient(#93C572 70%, #C8EBB1 30%);
-        height: 150vh;
+        height: 190vh;
     }
 
     .wave img {
